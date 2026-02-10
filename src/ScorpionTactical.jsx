@@ -76,7 +76,7 @@ const ScorpionTacticalWebsite = () => {
     icon: Lock,
     title: "Access Control",
     description: "Comprehensive access control systems and intruder alarm solutions.",
-    image: "/assets/access.jpeg"  // Your local image
+    image: "/assets/acces.jpeg"  // Your local image
   },
   {
     icon: Award,
