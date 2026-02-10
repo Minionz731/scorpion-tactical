@@ -1,4 +1,4 @@
-iimport ScorpionTactical from './ScorpionTactical'
+import ScorpionTactical from './ScorpionTactical'
 
 function App() {
   return <ScorpionTactical />
