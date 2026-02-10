@@ -11,7 +11,7 @@ const StackShieldBranding = () => (
       className="flex items-center gap-3 px-5 py-3 bg-black/40 backdrop-blur-md border border-white/10 rounded-full hover:bg-black/60 hover:border-white/30 transition-all duration-300 hover:scale-105"
     >
       <img 
-        src="/public/assets/stack-shield-logo.png" 
+        src="/assets/stack-shield-logo.png" 
         alt="Stack & Shield Logo" 
         className="w-6 h-6 object-contain"
       />
@@ -52,51 +52,52 @@ const ScorpionTacticalWebsite = () => {
     element?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const services = [
-    {
-      icon: Shield,
-      title: "Armed Response",
-      description: "24/7 rapid armed response with highly trained professionals and state-of-the-art vehicles.",
-      image: "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16?w=800&h=600&fit=crop"
-    },
-    {
-      icon: Eye,
-      title: "CCTV & Surveillance",
-      description: "Advanced monitoring systems with video analytics and real-time threat detection.",
-      image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&h=600&fit=crop"
-    },
-    {
-      icon: Users,
-      title: "Security Guards",
-      description: "PSIRA-licensed professional guards trained to the highest industry standards.",
-      image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800&h=600&fit=crop"
-    },
-    {
-      icon: Lock,
-      title: "Access Control",
-      description: "Comprehensive access control systems and intruder alarm solutions.",
-      image: "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&h=600&fit=crop"
-    },
-    {
-      icon: Award,
-      title: "VIP Protection",
-      description: "Elite close protection services for executives and high-profile individuals.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop"
-    },
-    {
-      icon: Users,
-      title: "Event Security",
-      description: "Professional crowd control and event management services.",
-      image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop"
-    }
-  ];
+  
+   const services = [
+  {
+    icon: Shield,
+    title: "Armed Response",
+    description: "24/7 rapid armed response with highly trained professionals and state-of-the-art vehicles.",
+    image: "/assets/armed.jpg"  // Your local image
+  },
+  {
+    icon: Eye,
+    title: "CCTV & Surveillance",
+    description: "Advanced monitoring systems with video analytics and real-time threat detection.",
+    image: "/assets/cctv.jpeg"  // Your local image
+  },
+  {
+    icon: Users,
+    title: "Security Guards",
+    description: "PSIRA-licensed professional guards trained to the highest industry standards.",
+    image: "/assets/security.jpg"  // Your local image
+  },
+  {
+    icon: Lock,
+    title: "Access Control",
+    description: "Comprehensive access control systems and intruder alarm solutions.",
+    image: "/assets/access.jpeg"  // Your local image
+  },
+  {
+    icon: Award,
+    title: "VIP Protection",
+    description: "Elite close protection services for executives and high-profile individuals.",
+    image: "/assets/vip.jpg"  // Your local image
+  },
+  {
+    icon: Users,
+    title: "Event Security",
+    description: "Professional crowd control and event management services.",
+    image: "/assets/events.jpg"  // Your local image
+  }
+];
 
   // Guard images from assets
   const guardImages = [
-    '/public/assets/guard1.jpg',
-    '/public/assets/guard2.jpg',
-    '/public/assets/guard3.jpg',
-    '/public/assets/guard4.jpg'
+    '/assets/guard1.jpg',
+    '/assets/guard2.jpg',
+    '/assets/guard3.jpg',
+    '/assets/guard4.jpg'
   ];
 
   return (
@@ -115,7 +116,7 @@ const ScorpionTacticalWebsite = () => {
           playsInline
           className="w-full h-full object-cover opacity-25"
         >
-          <source src="/public/assets/bg.mp4" type="video/mp4" />
+          <source src="/assets/bg.mp4" type="video/mp4" />
         </video>
         
         {/* Additional red tint overlay */}
@@ -129,7 +130,7 @@ const ScorpionTacticalWebsite = () => {
             <div className="flex items-center gap-4 group cursor-pointer" onClick={() => scrollToSection('home')}>
               {/* Scorpion Logo */}
               <img 
-                src="/public/assets/ST.logo.png" 
+                src="/assets/ST.logo.png" 
                 alt="Scorpion Tactical Logo" 
                 className="h-14 w-auto object-contain transform group-hover:scale-110 transition-transform duration-300"
               />
@@ -179,7 +180,7 @@ const ScorpionTacticalWebsite = () => {
           <div className="mb-8 animate-fade-in">
             <div className="inline-block p-6 bg-red-600/10 backdrop-blur-sm border border-red-500/30 rounded-2xl mb-6">
               <img 
-                src="/public/assets/ST.logo.png" 
+                src="/assets/ST.logo.png" 
                 alt="Scorpion Tactical" 
                 className="w-24 h-24 object-contain"
               />
