@@ -195,12 +195,12 @@ const ScorpionTacticalWebsite = () => {
               animation: 'slideUp 1s ease-out, glow 2s ease-in-out infinite alternate'
             }}
           >
-            Scorpion
-            <span className="block text-red-500">Tactical</span>
+            Elite Security Solutions
+            <span className="block text-red-500">for South Africa</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-4 font-light tracking-wide animate-fade-in-delayed" style={{ fontFamily: 'Inter, sans-serif' }}>
-            Elite Security Solutions for South Africa
+            Protecting what matters most since 2016
           </p>
           
           <p className="text-lg text-white/70 mb-12 max-w-2xl mx-auto animate-fade-in-delayed-2" style={{ fontFamily: 'Inter, sans-serif' }}>
